@@ -67,9 +67,9 @@
 
 {#if showModal}
 	<Modal on:close="{() => showModal = false}">
-        <h2 slot="header">
+        <h1 slot="header">
             {coordinate.titles[0].title}
-		</h2>
+		</h1>
 
 		<Detail coordinate={coordinate} cloudRef={cloudRef} />
 	</Modal>

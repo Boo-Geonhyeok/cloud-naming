@@ -28,7 +28,7 @@
     }
 </script>
 
-<img src={coordinate.img} alt="detailImg" />
+<img width=500px src={coordinate.img} alt="detailImg" />
 <hr>
 {#each coordinate.titles as t}
 <li>{t.title} {t.like} <button on:click={upvote(t)}>^</button></li>
