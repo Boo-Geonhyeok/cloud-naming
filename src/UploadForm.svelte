@@ -47,7 +47,7 @@
     <label for="image">Image</label>
     <input on:change={handleImgUpload} type="file" name="image" id="image" accept="image/*" required>
 
-    <img src={src} alt="">
+    <img width=500px src={src} alt="">
 
     <hr>
     <button type="submit">submit</button>
